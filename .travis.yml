@@ -2,5 +2,6 @@ language:
   - cpp
 
 script:
+  - ./googletest/travis.sh
   - make
   - ./a.out

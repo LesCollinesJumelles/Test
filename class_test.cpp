@@ -1,4 +1,4 @@
-#include <gtest/gtest.h>
+#include "gtest/gtest.h"
 #include "class.hpp"
 
 #define START_CAPTURE_OUT testing::internal::CaptureStdout()
