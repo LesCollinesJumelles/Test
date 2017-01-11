@@ -1,10 +1,12 @@
 language:
-  - cpp
-
+- cpp
 script:
-  - cd googletest/googletest
-  - cmake .
-  - make
-  - cd ../..
-  - make
-  - ./a.out
+- cd googletest/googletest
+- cmake .
+- make
+- cd ../..
+- make
+- "./a.out"
+notifications:
+  slack:
+    secure: rAdjua68Mj2OAl54RoOy1SzjhB1HxhHY4klpjPShIEXkfZtKj5RRRZidbkbUl19hKeVfvWxxsOfmXHQqSP55sKGcUjXhXWym0Zj3jnI7l5aSNUylIVmWzEiz6GVYtFCFmNe0muX6btRC7v5jbWaqmBSTFZHi1c/nPXowhUmvL73z/reYsxGaVeZdrGPIDXalRoaXID3D0awqNAzpOaAradZ8+T7nbO8xVNcvmoOkANcuR76cMfPno2h1YzL+k8mBrjAhJu1bmpn9QUdJL+8eBFROb5NUc1eIPwTxu+w/wpzkbqSlAuQJMfAye+ASOvwwHHpumCSyEuetYEsUh896e1o5eGhp5abjUN1xRRQoKt7ejYQT7W+ZET/53x+Sf6d9qSjLTJu9pPDrzDNhFe6JOHB3n3cpRBNr+crfLAjvIZp/mRx9hUFgH1lWzdaxjnbY/8SZGGkTtcFTp8DgVIZR4IT2MNFDcLYXpN570WMAHjRZ+hBfFCzpYhNr2EVPHaufnCQx1unXJUP+Z70aUFd1sz8vII1DDYbRJbxjEjGLr4s5yIYLqea5rjM+W/bei/PvIAt6rUMjDCKkxD/9jZXvRS9Lk5SREr73HRisNcZsnQrJHtSMGvOxYAwTFcZvd3kYQ6zFx28r2k7Dvmq9MaL5KZu8wbaapRDbYdOWD4ZDxS4=
